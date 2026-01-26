@@ -1,0 +1,21 @@
+{
+  "name": "The International School Ltd Secondary",
+  "short_name": "Int School",
+  "icons": [
+    {
+      "src": "/icons/international-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/international-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003366",
+  "color_scheme": "light"
+}
