@@ -52,7 +52,7 @@ const LoginPage = () => {
   const getPupilRoute = (type) => {
     switch (type) {
       case "Gov": return "/GovPupilDashboard";
-      case "Private": return "/portal/dashboard/";
+      case "Private": return "/portal/dashboard/Pupil/";
       case "GovSpecial": return "/GovPupilSpecial";
       case "PrivateSpecial": return "/PrivatePupilSpecial";
       case "StaffAttendanceSimple": return "/StaffAttendanceSimple";
@@ -98,7 +98,7 @@ const LoginPage = () => {
             else if (name === "Classes") navigationRoute = "/PupilUpdate";
             else if (name === "Admins") navigationRoute = getAdminRoute(foundUser.adminType);
             else if (name === "PupilsReg") navigationRoute = getPupilRoute(foundUser.pupilType);
-            else if (name === "Teachers") navigationRoute = "/subjectTeacher";
+            else if (name === "Teachers") navigationRoute = "/portal/dashboard/subjectTeacher";
 
             break;
           }
