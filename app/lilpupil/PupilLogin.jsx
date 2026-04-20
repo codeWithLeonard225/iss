@@ -1,5 +1,8 @@
+// app/lilothers/othersdb.jsx      export const othersdb = getFirestore(schoolapp);
+// app/lib/firebase.js             export { db };
+// app/lilpupil/pupilLogin.jsx     export const pupilLoginFetch = getFirestore(schoolapp);
 
-// Database/pupilLogin.jsx
+
 "use client";
 
 import { initializeApp, getApps, getApp } from "firebase/app";

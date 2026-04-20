@@ -1,4 +1,4 @@
-// app/lib/firebase.js
+// app/lib/firebase.js     export { db };
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 

@@ -13,7 +13,7 @@ import {
 
 import { useAuth } from "@/app/context/AuthContext";
 import { useRouter } from "next/navigation";
-// import TeacherGradesPage from "../../TeacherAssign/TeacherGradesPage";
+import TeacherGradesPage from "../../TeacherAssign/TeacherGradesPage";
 
 // Updated NAV_ITEMS for a Teacher context
 const NAV_ITEMS = [
@@ -178,8 +178,8 @@ export default function SubjectTeacherDashboard() {
       return <div className="p-6">Dashboard / Attendance View</div>;
 
     case "grades":
-    //   return <TeacherGradesPage/>;
-      return <div className="p-6">Grades / Attendance View</div>;
+      return <TeacherGradesPage/>;
+      // return <div className="p-6">Grades / Attendance View</div>;
 
     case "objectives":
     case "theory":
