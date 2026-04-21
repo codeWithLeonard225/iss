@@ -23,4 +23,4 @@ const schoolapp =
   initializeApp(firebaseConfig, "schoolLibAndPastQuestionsApp");
 
 // ✅ Firestore client
-export const othersdb = getFirestore(schoolapp);
+export const schoollpq = getFirestore(schoolapp);

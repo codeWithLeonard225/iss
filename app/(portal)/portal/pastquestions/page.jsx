@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { db } from "@/app/lib/firebase"; 
-import { othersdb } from "@/app/lilothers/othersdb.jsx";
+import { othersdb } from "@/app/lilschoollpq/schoollpq.jsx";
 
 import {
     collection,
