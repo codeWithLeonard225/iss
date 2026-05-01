@@ -80,13 +80,14 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="manifest" href="/manifest.webmanifest" />
+  
+    <html lang="en" suppressHydrationWarning>
+      <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="theme-color" content="#3f2a8c" />
         <meta name="color-scheme" content="light" />
-      </head>
-      <body>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }

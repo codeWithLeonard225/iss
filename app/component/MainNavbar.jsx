@@ -55,7 +55,7 @@ export default function MainNavbar() {
             href="/login"
             className="px-4 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700 transition"
           >
-            Student Portal
+             Portal
           </Link>
         </div>
 
@@ -83,7 +83,7 @@ export default function MainNavbar() {
             className="block w-full text-center px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 transition mt-4"
             onClick={() => setOpen(false)}
           >
-            Student Portal
+             Portal
           </Link>
         </div>
       )}
